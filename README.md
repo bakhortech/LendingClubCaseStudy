@@ -1,6 +1,7 @@
 # Project Name
-> Outline a brief description of your project.
-
+ ###### Lending Club Case Study:
+    Identification of borrower behaviour that leads to default a loan payment using exploratory data analysis.
+    Help lending organisation providing the driver variables that would identify the loan defaulters so that risk of lending is minimal.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -8,9 +9,13 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
+Every loan application to a lending organisation brings in two types of risk-
+   1. Not approving a loan to a good customer is loss to business
+   2. Approving loan to a customer who might default loan payment is a financial loss.
+   
+Analysing past consumer behaviours might help the lending organisation to filter out customer who is probable to default a loan. Prime objective of this project is to understand borrower traits and identify the driving variable that would determine if a customer is supposed to default the loan payment.
+
 - Provide general information about your project here.
 - What is the background of your project?
 - What is the business probem that your project is trying to solve?
