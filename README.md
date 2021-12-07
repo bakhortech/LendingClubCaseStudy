@@ -49,4 +49,4 @@ We have used EDA to understand how consumer attributes and loan attributes influ
 This project is created as part of upgrad assignment on case study with exploratory data analysis. Thanks to upgrad for inspiring to work on interesting problems.
 
 ## Contact
-Created by [@bakhortech] and [@IndrashisChatterjee] - feel free to connect!
+Created by [@bakhortechnologies] and [@IndrashisChatterjee] - feel free to connect!
