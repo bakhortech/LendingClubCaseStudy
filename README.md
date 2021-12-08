@@ -30,22 +30,31 @@ When a person applies for a loan, there are two types of decisions that could be
 Analysig the file we need to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
 
 We have used EDA to understand how consumer attributes and loan attributes influence the tendency of default.
-
-## Conclusions
-- The provided data has lot of null and missing values. Columns with more that 50% null have been dropped and null have been enriched wherever applicable
+### Conclusions
+- The provided data has lot of null and missing values. Columns with more that 60% null have been dropped and null have been enriched wherever applicable
 - Few of the columns had malformed data. Those were standardized.
-- Business driven, data driven and type driven derived columns are created as required.
+- Busines driven, data driven and type driven derived columns are created as required.
 - After data understanding and cleanup, univariate and bivariate analysis have been done.
-- Few of the strong driver variables identified are as follows: 
+- Few of the strong inferences deduced are as follows:
 
    - Increasing rate of interest shows more loan defaulter. Loans with greater interest might be a risk.
-   - Number of borrower from CA is most and it also has the highest number of defaulter. Borrower from state CA needs to be scrutinized properly.
+   - pub_rec,pub_rec_bankruptcies & delinq_2yrs are showing higher defaulter rates
+   - Number of borrower from CA is most and it also has the highest number of defaulter. Borrower from state CA needs to be scrutunized properly.
    - Lower grade of loan with increasing rate of interest shows higher chances of defaulter.
    - Loan with 60 months term shows greater number of defaulter when rate of interest is high.
-   - Mortgaged and rented homeowners shows a greater number of loan with more defaulters when interest rate is medium to high.
+   - Mortgaged and rented home owners shows more number of loan with more defaulters when interest rate is medium to high.
    - most of the people have taken loan for debt consolidation with high interest rate.
+   - seniors accounts for more defaults but juniors with rented house also accounts to more default than mortgaged
+   - Impact of  loan to income ratio, revolving utilization charges & dti is clearly visible if it is on higher side then the default percentage increases
+   - term for 30 & 60 months with mortgaged home results in more defaulting but incase of rented 36 months attracts more defaulters    
+   - defaulters in rented home with purpose of debt_consolidation is high
+   - having high grade loans & rented home results in more getting defaulters
 
-## Technologies Used
+    
+    
+    
+    
+ ## Technologies Used
 - jupyter notebook - version 6.0.3
 - python - version 3.8
 - pandas - version 1.0.5
