@@ -1,6 +1,6 @@
 # Project Name
  ###### Lending Club Case Study:
-    Identification of borrower behaviour that leads to default a loan payment using exploratory data analysis.
+    Identification of scenarios that leads to defaulting a loan payment, using exploratory data analysis.
     Help lending organisation providing the driver variables that would identify the loan defaulters so that risk of lending is minimal.
 
 ## Table of Contents
@@ -14,9 +14,19 @@ When working for a consumer finance company which specialises in lending various
    1. Not approving a loan to a good customer is loss to business
    2. Approving loan to a customer who might default loan payment is a financial loss.
    
-Analysing past consumer behaviours might help the lending organisation to filter out customer who is probable to default a loan. Prime objective of this project is to understand borrower traits and identify the driver variables that would determine if a customer is probable to default the loan payment.
+Analysing past consumer traits might help the lending organisation to filter out customer who is probable to default a loan. Prime objective of this project is to understand borrower traits and identify the driver variables that would determine if a customer is probable to default the loan payment.
 
 The provided dataset is loan.csv file, that contains information about past loan applicants and whether they ‘defaulted’ or not.
+
+When a person applies for a loan, there are two types of decisions that could be taken by the company:
+- Loan accepted: If the company approves the loan, there are 3 possible scenarios described below:
+  - Fully paid: Applicant has fully paid the loan (the principal and the interest rate)
+  - Current: Applicant is in the process of paying the instalments, i.e. the tenure of the loan is not yet completed. These candidates are not labelled as 'defaulted'.
+
+  - Charged-off: Applicant has not paid the instalments in due time for a long period of time, i.e. he/she has defaulted on the loan 
+
+- Loan rejected: The company had rejected the loan (because the candidate does not meet their requirements etc.). Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
+
 Analysig the file we need to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
 
 We have used EDA to understand how consumer attributes and loan attributes influence the tendency of default.
